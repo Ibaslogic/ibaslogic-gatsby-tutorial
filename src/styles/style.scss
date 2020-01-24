@@ -1,0 +1,23 @@
+$primaryColor: #464646;
+$secondaryColor: #f44f18;
+$mainWhite: #fff;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  color: $primaryColor;
+  font-size: 100%;
+  margin: 0;
+  line-height: 1.4283;
+  font-family: "Segoe UI", Roboto, Verdana, "Helvetica Neue", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+a {
+  color: $secondaryColor;
+  text-decoration: none;
+}
