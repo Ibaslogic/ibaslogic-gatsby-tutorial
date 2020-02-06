@@ -40,7 +40,7 @@ const BlogPost = props => {
 
         {props.data.markdownRemark.frontmatter.featured && (
           <Img
-            className={postStyles.featured}
+            className={postStyles.featured} 
             fluid={
               props.data.markdownRemark.frontmatter.featured.childImageSharp
                 .fluid

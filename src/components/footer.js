@@ -8,7 +8,7 @@ const Footer = () => {
     graphql`
       query {
         site {
-          siteMetadata {
+          siteMetadata { 
             author
           }
         }
